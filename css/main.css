@@ -105,3 +105,27 @@ overflow: hidden;
 .contact-section {
     background-color: rgb(224, 211, 211);
 }
+.team-img {
+    height: 100px;
+    width: 100px;
+}
+.team-para-container p {
+    text-align: justify;
+    margin-left: 2rem;
+    margin-bottom: 0rem;
+}
+.demo {
+    margin-left: 3rem;
+}
+.demo img {
+float: left;
+}
+.team-para-container {
+margin-left: 8rem;
+}
+
+.margin-top-bottom {
+    padding-top: 1rem;
+    
+    padding-bottom: 1rem; 
+}
