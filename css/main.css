@@ -201,3 +201,10 @@ cite img {
     transform: translateX(-50%);
     bottom: -10px;
 }
+@media (max-width: 767.98px)
+{
+    .fix-small-screen a {
+        font-size: 105%;
+    }
+
+}

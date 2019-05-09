@@ -7,7 +7,13 @@
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
-
+		<link href="plugin-frameworks/swiper.css" rel="stylesheet">
+		
+		<link href="fonts/ionicons.css" rel="stylesheet">
+		
+			
+		<link href="common/styles.css" rel="stylesheet">
+		
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     
@@ -27,13 +33,13 @@
   </head>
   <body>
 	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
+	    <div class="container fix-small-screen">
 	      <a class="navbar-brand" href="index.html">Technoslotiom<span>.co.in</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
+	      <div class="collapse navbar-collapse fix-small-screen-o" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.html" class="nav-link">our work</a></li>
@@ -45,45 +51,119 @@
 	    </div>
 	  </nav>
     <!-- slider data -->
-    <section class="home-slider owl-carousel">
-      <div class="slider-item">
-        <div class="container">
-          <div class="row d-flex slider-text justify-content-center align-items-center" data-scrollax-parent="true">
-						
-						<div class="img" style="background-image: url(images/bg_1.jpg);"></div>
-
-            <div class="text d-flex align-items-center ftco-animate bg-header-left">
-            	<div class="text-2 pb-lg-5 mb-lg-4 px-4 px-md-5">
-		          	<h3 class="subheading mb-3">Responsive WEbsite</h3>
-		            <h1 class="mb-5">We build future not buildingd</h1>
-		            <p class="mb-md-5">Responsive webdesign which works great in all devices</p>
-		            <p><a href="#" class="btn btn-black px-3 px-md-4 py-3">Read More <span class="icon-arrow_forward ml-lg-4"></span></a></p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="slider-item">
-        <div class="container">
-          <div class="row d-flex slider-text justify-content-center align-items-center" data-scrollax-parent="true">
-
-          	<div class="img" style="background-image: url(images/bg_2.jpg);"></div>
-
-            <div class="text d-flex align-items-center ftco-animate bg-header-left">
-            	<div class="text-2 pb-lg-5 mb-lg-4 px-4 px-md-5">
-		          	<h3 class="subheading mb-3">Website Devlopment</h3>
-		            <h1 class="mb-5">Akash Stuido </h1>
-		            <p class="mb-md-5">We capture the  movments , not the pictures</p>
-		            <p><a href="#" class="btn btn-black px-3 px-md-4 py-3">Read More <span class="icon-arrow_forward ml-lg-4"></span></a></p>
-	            </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="slider-main h-800x h-sm-auto pos-relative pt-95 pb-25">
+			<div class="img-bg bg-1 bg-layer-4"></div>
+			<div class="container-fluid h-100 mt-xs-50">
+			
+				<div class="row h-100">
+					<div class="col-md-1"></div>
+					<div class="col-sm-12 col-md-5 h-100 h-sm-50">
+						<div class="dplay-tbl">
+							<div class="dplay-tbl-cell color-white mtb-30">
+								<div class="mx-w-400x">
+									<h5><b>ART</b></h5>
+									<h1 class="mt-20 mb-30"><b>The Shoddy Science Behind most Pregnancy Advice</b></h1>
+									<h6><a class="plr-20 btn-brdr-grey color-white" href="#"><b>Continue Reading</b></a></h6>
+								</div><!-- mx-w-200x -->
+							</div><!-- dplay-tbl-cell -->
+						</div><!-- dplay-tbl -->
+					</div><!-- col-sm-6 -->
+					
+					<div class="col-sm-12 col-md-6 h-sm-50 oflow-hidden swiper-area pos-relative">			
+		
+						<div class="abs-blr pos-sm-static">
+							<div class="row pos-relative mt-50 all-scroll">
+							
+								<div class="swiper-scrollbar resp"></div>
+								<div class="col-md-10">
+									
+									<h5 class="mb-50 color-white"><b>HOT NEWS</b></h5>
+									
+									<div class="swiper-container oflow-visible" data-slide-effect="slide" data-autoheight="false" 
+										data-swiper-speed="500" data-swiper-margin="25" data-swiper-slides-per-view="2"
+										data-swiper-breakpoints="true" data-scrollbar="true" data-swiper-loop="true"
+										data-swpr-responsive="[1, 2, 1, 2]">
+										
+										
+									
+										<div class="swiper-wrapper">
+											<!-- data-swiper-autoplay="1000"  --> 
+											<div class="swiper-slide">
+												<div class="bg-white">
+													<img src="images/hot_news_1_300x150.jpg" alt="">
+													
+													<div class="plr-25 ptb-15">
+														<h5 class="color-ash"><b>ART</b></h5>
+														<h4 class="mtb-10">
+															<a href="#"><b>I Got off Addrall and Xanax Using Psilocybon</b></a></h4>
+														<ul class="list-li-mr-10 color-lt-black">
+															<li><i class="mr-5 font-12 ion-android-favorite-outline"></i>15</li>
+															<li><i class="mr-5 font-12 ion-ios-chatbubble-outline"></i>105</li>
+														</ul>
+													</div><!-- hot-news -->
+												</div><!-- hot-news -->
+											</div><!-- swiper-slide -->
+											
+											<div class="swiper-slide">
+												<div class="bg-white">
+													<img src="images/hot_news_2_300x150.jpg" alt="">
+													
+													<div class="plr-25 ptb-15">
+														<h5 class="color-ash"><b>ART</b></h5>
+														<h4 class="mtb-10">
+															<a href="#"><b>I Got off Addrall and Xanax Using Psilocybon</b></a></h4>
+														<ul class="list-li-mr-10 color-lt-black">
+															<li><i class="mr-5 font-12 ion-android-favorite-outline"></i>15</li>
+															<li><i class="mr-5 font-12 ion-ios-chatbubble-outline"></i>105</li>
+														</ul>
+													</div><!-- hot-news -->
+												</div><!-- hot-news -->
+											</div><!-- swiper-slide -->
+											
+											<div class="swiper-slide">
+												<div class="bg-white">
+													<img src="images/hot_news_3_300x150.jpg" alt="">
+													
+													<div class="plr-25 ptb-15">
+														<h5 class="color-ash"><b>ART</b></h5>
+														<h4 class="mtb-10">
+															<a href="#"><b>I Got off Addrall and Xanax Using Psilocybon</b></a></h4>
+														<ul class="list-li-mr-10 color-lt-black">
+															<li><i class="mr-5 font-12 ion-android-favorite-outline"></i>15</li>
+															<li><i class="mr-5 font-12 ion-ios-chatbubble-outline"></i>105</li>
+														</ul>
+													</div><!-- hot-news -->
+												</div><!-- hot-news -->
+											</div><!-- swiper-slide -->
+											
+											
+											<div class="swiper-slide">
+												<div class="bg-white">
+													<img src="images/hot_news_1_300x150.jpg" alt="">
+													
+													<div class="plr-25 ptb-15">
+														<h5 class="color-ash"><b>ART</b></h5>
+														<h4 class="mtb-10">
+															<a href="#"><b>I Got off Addrall and Xanax Using Psilocybon</b></a></h4>
+														<ul class="list-li-mr-10 color-lt-black">
+															<li><i class="mr-5 font-12 ion-android-favorite-outline"></i>15</li>
+															<li><i class="mr-5 font-12 ion-ios-chatbubble-outline"></i>105</li>
+														</ul>
+													</div><!-- hot-news -->
+												</div><!-- hot-news -->
+											</div><!-- swiper-slide -->
+											
+										</div><!-- swiper-wrapper -->
+									</div><!-- swiper-container -->
+									
+								</div><!-- col-sm-6 -->
+							</div><!-- all-scroll -->
+						</div><!-- row -->
+					</div><!-- col-sm-6 -->
+					
+				</div><!-- row -->
+			</div><!-- container -->
+		</div><!-- slider-main -->
 		<!-- Our services  -->
 		<section class="our-services editors_pick area-padding">
 			<div class="container">
@@ -487,7 +567,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <script src="js/scrollax.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
+	<script src="js/main.js"></script>
+	<script src="plugin-frameworks/swiper.js"></script>
+	<script src="common/scripts.js"></script>
     
   </body>
 </html>
